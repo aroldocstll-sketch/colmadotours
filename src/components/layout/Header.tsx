@@ -11,11 +11,11 @@ const Header: React.FC = () => {
   const { brandSettings } = useBrand();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/60 bg-white/85 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-slate-200/60 bg-cyan-600/75 backdrop-blur-l">
       <div className="section-shell flex items-center justify-between py-3">
         <Link to="/#top" className="group flex items-center gap-3">
           <div className="grid h-11 w-11 place-items-center rounded-full bg-gradient-to-br from-amber-300 to-teal-500 text-lg shadow-lg">
-            🏝️
+            🍹
           </div>
           <h1 className="hidden text-2xl font-bold text-slate-900 transition group-hover:text-teal-700 sm:block">
             {brandSettings.brandName}
