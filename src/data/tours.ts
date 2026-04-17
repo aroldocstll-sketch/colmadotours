@@ -3,7 +3,7 @@ import { Tour } from '../services/toursService';
 export const tours: Tour[] = [
   {
     id: 1,
-    image: 'https://cdn.pixabay.com/photo/2016/11/19/14/00/beach-1836467_1280.jpg',
+    image: 'https://res.cloudinary.com/dmdjoo727/image/upload/f_auto,q_auto/walkerssk-beach-1824855_1280_cj8s8y',
     title: 'Remote Island Trip (Saona)',
     description: 'Discover the stunning beauty of Saona Island with a relaxing day of sun and sand.',
     price: '$100',
